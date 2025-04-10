@@ -13,7 +13,7 @@ from langchain_core.runnables import RunnablePassthrough
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from typing import List
 from fastapi.responses import JSONResponse
-from env import settings
+from .env import settings
 import os
 import uuid
 
